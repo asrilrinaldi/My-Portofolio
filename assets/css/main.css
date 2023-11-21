@@ -4916,18 +4916,18 @@ a img {
 .header-icons .icon {
     height: 20px;
     padding: 10px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+    /* border-radius: 80%; */
+    /* border: 2px solid #fff; */
     transition: all .7s;
     width: 20px;
     font-size: 20px;
-    margin: 5px
+    margin: 10px
 }
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
     color: #d61114;
-    background: #fff
+    /* background: #fff */
 }
 
 @media only screen and (min-width:550px) {
@@ -5028,7 +5028,7 @@ a img {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    max-width: 960px;
+    /* max-width: 960px; */
     margin: 0 auto
 }
 
